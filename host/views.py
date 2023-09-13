@@ -14,7 +14,7 @@ def get_info(request):
     current_utc_time = datetime.now(pytz.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # GitHub repository URLs
-    github_file_url = f"{github_repo_url}/why/blob/main/host/views.py"
+    github_file_url = "https://github.com/Mbykz01/why/blob/main/host/views.py"
     github_repo_url = "https://github.com/Mbykz01/why"
 
     # Prepare the response data
